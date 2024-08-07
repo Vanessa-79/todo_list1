@@ -1,5 +1,5 @@
 from django.test import TestCase
-from .models import ToDoItem
+from .models import *
 
 #create your tests here
 class ToDoTests(TestCase):

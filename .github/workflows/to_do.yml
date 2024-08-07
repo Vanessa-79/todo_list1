@@ -1,5 +1,5 @@
-name: To Do list
-run_name: Testing Github Actions
+name: To Do List
+
 on:
   push:
     branches: [ main ]
@@ -21,3 +21,13 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+
+    - name: Run tests
+      run: |
+        # Add your test commands here
+        echo "No tests defined"
+
+    - name: Lint code
+      run: |
+        # Add your linting commands here
+        echo "No linting defined"
